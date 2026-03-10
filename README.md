@@ -3,7 +3,7 @@
 
 **Abstract:**Influenced by multiple external factors, cloud workload sequences exhibit intertwined characteristics of randomness, periodicity, and multi-scale complexity, which pose significant challenges to high-accuracy prediction. Diffusion models have demonstrated exceptional capability in modeling complex data distributions and generating high-quality samples in recent years, making them highly compatible with the inherent stochasticity of cloud workload sequences. However, existing diffusion-based time series prediction studies still lag in capturing diverse features ranging from long-term growth trends to short-term rapid fluctuations during the generation process of diffusion. To address this issue, this paper proposes a Multi-Scale driven Spatio-Temporal Diffusion model for Cloud workload forecasting (MSST-CloudDiff). MSST-CloudDiff introduces a multi-scale design and develops a hierarchically fused mechanism in both the forward diffusion and reverse denoising processes, enabling progressive generation from large scale trends to fine-grained details. In addition, MSST-CloudDiff employs a lightweight spatio-temporal feature fusion to generate conditional vectors to precisely guide noise estimation and denoising directions at each diffusion step. Extensive experiments on Google-2011 and Alibaba-2018 datasets demonstrate that MSST-CloudDiff significantly outperforms state-of-the-art methods in terms of prediction accuracy and stochastic modeling capability, fully validating its effectiveness in complex, non-stationary cloud workload scenarios.
 
-##model 
+## model 
 <div align=center>
 
 <img src="img/model.jpg" width='90%'>
