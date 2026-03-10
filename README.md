@@ -38,7 +38,6 @@ pip install -r requirements
 python main.py 
 ```
 
-```
 ## Dataset Preparation
 We use two public datasets:
 
